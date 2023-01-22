@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+   <div class="player">
+      <h1>Jogador: <span class="current-player" id="current-player">X</span></h1>
+   </div>
+
+
+  <section>
+    <div class="tabuleiro">
+      <div class="row1">
+         <input class="field" id="a1" type="button" value="_" onclick="play(a1)">
+         <input class="field" id="a2" type="button" value="_" onclick="play(a2)">
+         <input class="field" id="a3" type="button" value="_" onclick="play(a3)">
+      </div>
+      <div class="row2">
+         <input class="field" id="b1" type="button" value="_" onclick="play(b1)">
+         <input class="field" id="b2" type="button" value="_" onclick="play(b2)">
+         <input class="field" id="b3" type="button" value="_" onclick="play(b3)">
+      </div>
+      <div class="row3">
+         <input class="field" id="c1" type="button" value="_" onclick="play(c1)">
+         <input class="field" id="c2" type="button" value="_" onclick="play(c2)">
+         <input class="field" id="c3" type="button" value="_" onclick="play(c3)">
+      </div>
+    </div>
+
+    <input type="button"value="Reiniciar"id="reiniciar" onclick="reiniciar()"></input>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>

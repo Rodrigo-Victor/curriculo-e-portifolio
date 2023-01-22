@@ -1,0 +1,58 @@
+*{ 
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+}
+
+body {
+   text-align: center;
+}
+
+.player {
+   margin-top: 50px;
+   font-size: 30px;
+   margin-bottom: 20px;
+}
+
+.tabuleiro {
+   display: flex;
+   width: 308px ;
+   margin: auto;
+   flex-direction: column;
+}
+
+.row1 .field{
+   border-top: 1px #fff solid;
+   border-right: 1px #fff solid;
+}
+#a3,
+#b3,
+#c3{
+   border-right: 1px #fff solid;
+}
+.row3 .field{
+   border-bottom: 1px #fff solid;
+   border-right: 1px #fff solid;
+}
+
+#a1,
+#b1,
+#c1 {
+   border-left: 1px #fff solid;
+}
+
+.field {
+   width: 100px;
+   height: 100px;
+   color: #fff;
+   background-color: #fff;
+   margin: -1px -3px -1px -3px;
+   font-size: 60px;
+}
+
+#reiniciar {
+   margin-top: 20px;
+   width: 200px;
+   height: 40px;
+   font-size: 25px;
+}

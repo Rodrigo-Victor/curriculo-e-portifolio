@@ -1,0 +1,47 @@
+*{
+   font-family: monospace;
+   padding: 0;
+   margin: 0;
+ }
+ 
+ h1 {
+   text-align: center;
+ }
+ 
+ #calculadora {
+   margin: auto;
+   width: 220px;
+   margin-top: 50px;
+ }
+ 
+ #resultado {
+   margin-top: 20px;
+   text-align: right;
+   width: 216px;
+   height: 20px;
+   border: transparent;
+   background-color: transparent;
+   font-size: 25px;
+ }
+ 
+ #sub-resultado {
+   margin-top: 5px;
+   text-align: right;
+   width: 216px;
+   border: transparent;
+   background-color: transparent;
+   font-size: 13px;
+ }
+ 
+ #buttons {
+   margin-top: 20px;
+   width: 220px;
+ 
+ }
+ .btn {
+   width: 53px;
+   float:left;
+   margin: 1px;
+   height: 53px;
+   font-size: 25px;
+ }

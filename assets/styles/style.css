@@ -104,6 +104,10 @@ hr {
    font-weight: bold;
 }
 
+.personal-about {
+   text-align: justify;
+}
+
 .curriculum {
    background-color: rgb(240, 240, 240);
    border-radius: 20px;
@@ -142,4 +146,8 @@ hr {
    color: #888;
    font-size: 20px;
    margin-left: 10px;
+}
+
+.more-about {
+   text-align: justify;
 }

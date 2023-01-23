@@ -6,7 +6,8 @@
    margin: 1rem auto auto auto;
  }
 
-#raffleBTN {
+#raffleBTN,
+#newRaffleBTN{
    margin-top: 20px;
    width: 180px;
    height: 30px;

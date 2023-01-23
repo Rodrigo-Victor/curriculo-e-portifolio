@@ -9,14 +9,14 @@ body {
 }
 
 .player {
-   margin-top: 50px;
-   font-size: 30px;
+   margin-top: 30px;
+   font-size: 25px;
    margin-bottom: 20px;
 }
 
 .tabuleiro {
    display: flex;
-   width: 308px ;
+   width: 180px ;
    margin: auto;
    flex-direction: column;
 }
@@ -42,17 +42,17 @@ body {
 }
 
 .field {
-   width: 100px;
-   height: 100px;
+   width: 60px;
+   height: 66px;
    color: #fff;
    background-color: #fff;
    margin: -1px -3px -1px -3px;
-   font-size: 60px;
+   font-size: 40px;
 }
 
 #reiniciar {
    margin-top: 20px;
-   width: 200px;
-   height: 40px;
-   font-size: 25px;
+   width: 180px;
+   height: 30px;
+   font-size: 15px;
 }

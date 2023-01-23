@@ -121,9 +121,12 @@ hr {
    text-align: center;
 }
 
+.project .iframe-div {
+   height: 100%;
+}
+
 .project iframe {
    border: 1px solid black;
    border-radius: 20px;
-   position: relative;
    background-color: #fff;
 }

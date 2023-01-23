@@ -117,8 +117,11 @@ hr {
 }
 
 .project {
-   height: 70vh;
+   height: 620px;
    text-align: center;
+}
+
+.iframe-container {
 }
 
 .project iframe {
@@ -126,4 +129,5 @@ hr {
    border-radius: 20px;
    position: relative;
    background-color: #fff;
+   height: 600px;
 }

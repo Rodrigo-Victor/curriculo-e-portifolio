@@ -42,6 +42,25 @@ hr {
    border-radius: 10px;
 }
 
+.top nav li ul {
+   position: absolute;
+   display: none;
+   background-color: #DDD;
+   margin-left: -20px;
+   z-index: 1;
+   border-radius: 0 15px 15px 15px;
+}
+
+.top nav li:hover ul {
+   display: block;
+   width: 350px;
+   text-align: left;
+}
+
+.top nav li ul li:hover {
+   background-color: #FFF;
+}
+
 .main {
    display: flex;
    margin-top: 80px;

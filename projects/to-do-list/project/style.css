@@ -7,6 +7,7 @@
 .main {
    width: 500px;
    margin: auto;
+   margin-top: 30px;
    text-align: center;
 }
 
@@ -17,7 +18,6 @@
 
 .include-tasks {
    text-align: left;
-   margin-top: 30px;
 }
 
 .include-tasks h3 {
@@ -90,4 +90,10 @@
 
 #taskList input[type="checkbox"] {
    margin-left: 3px;
+}
+
+@media(max-width: 840px) {
+   .main {
+      width: 80%;
+   }
 }

@@ -5,12 +5,28 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="./assets/styles/style.css">
-   <title>Rodrigo Victor</title>
+   <script>
+      window.onload = function () {
+         if(document.querySelector(".menuMobile").addEventListener("click", function() {
+            if(document.querySelector(".navMenu").style.display == "flex") {
+               document.querySelector(".navMenu").style.display = "none"
+            } else {
+               document.querySelector(".navMenu").style.display = "flex"
+            }
+         }));
+      };
+   </script>
+   <title>Rodrigo Victor</title> 
 </head>
 <body>
    <section class="top container">
       <nav>
-         <ul>
+         <div class="menuMobile">
+            <div class="mm-line"></div>
+            <div class="mm-line"></div>
+            <div class="mm-line"></div>
+         </div>
+         <ul class="navMenu">
             <li><a href="index.html">Home</a></li>
             <li><a href="./projects/jogo-da-velha/jogo-da-velha.html">Projetos▾</a>
                <ul>

@@ -1,0 +1,99 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+}
+
+.main {
+   width: 500px;
+   margin: auto;
+   margin-top: 30px;
+   text-align: center;
+}
+
+.main h1 {
+   margin-top: 20px;
+   margin-bottom: 15px;
+}
+
+.include-tasks {
+   text-align: left;
+}
+
+.include-tasks h3 {
+   margin-left: 15px;
+}
+
+.btns {
+   display: flex;
+   justify-content: space-between;
+}
+
+.new-task {
+   width: 100%;
+   border: 1px solid #eee;
+   border-radius: 10px;
+   height: 30px;
+   margin-bottom: 10px;
+   padding-left: 15px;
+   font-size: 17px;
+}
+
+.adicionar,
+.limpar,
+.limparLista {
+   margin-left: 15px;
+   padding: 2px 5px;
+   background-color: #FFF;
+   border-radius: 5px;
+   border:0.5px solid #000
+}
+
+.tasks-list {
+   text-align: left;
+   margin-top: 20px;
+   margin-left: 15px;
+}
+
+#taskList {
+   list-style-type: none;
+}
+
+#taskList li {
+   margin-bottom: 10px;
+   display: flex;
+   justify-content:space-between;
+}
+
+#taskList li span {
+   width: 75%;
+}
+
+#taskList li div {
+   font-size: 15px;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+}
+
+#taskList hr {
+   width: 100%;
+   margin: auto;
+   margin-bottom: 10px;
+   border: 1px solid #eee;
+}
+
+#taskList li button {
+   margin-left: 10px;
+   padding: 2px;
+}
+
+#taskList input[type="checkbox"] {
+   margin-left: 3px;
+}
+
+@media(max-width: 840px) {
+   .main {
+      width: 80%;
+   }
+}

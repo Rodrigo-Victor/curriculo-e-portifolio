@@ -5,15 +5,28 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="./assets/styles/contact-style.css">
+   <script src="./assets/scripts/script.js"></script>
    <title>Contato</title>
 </head>
 <body>
    <section class="top container">
       <nav>
-         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="./projects/jogo-da-velha/jogo-da-velha.html">Projetos▾</a></li>
-            <li><a href="contact.html">Contato</a></li>
+         <div class="menuMobile">
+            <div class="mm-line"></div>
+            <div class="mm-line"></div>
+            <div class="mm-line"></div>
+         </div>
+         <ul class="navMenu">
+            <li><a href="../../index.html">Home</a></li>
+            <li><a>Projetos▾</a>
+               <ul>
+                  <li><a href="./projects.html?pID=jdv">jogo-da-velha</a></li>
+                  <li><a href="./projects.html?pID=calc">calculadora</a></li>
+                  <li><a href="./projects.html?pID=cc">cara ou coroa</a></li>
+                  <li><a href="./projects.html?pID=tdl">lista de tarefas</a></li>
+               </ul>
+            </li>
+            <li><a href="../../contact.html">Contato</a></li>
          </ul>
       </nav>
    </section>

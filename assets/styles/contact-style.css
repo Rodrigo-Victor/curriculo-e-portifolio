@@ -23,6 +23,7 @@ hr {
 
 .top ul{
    display: flex;
+   z-index: 1;
 }
 
 .top li{
@@ -41,6 +42,40 @@ hr {
    background-color: #ddd;
    border-radius: 10px;
 }
+
+.top nav li ul {
+   position: absolute;
+   display: none;
+   background-color: #DDD;
+   margin-left: -20px;
+   z-index: 1;
+   border-radius: 0 15px 15px 15px;
+}
+
+.top nav li:hover ul {
+   display: block;
+   width: 350px;
+   text-align: left;
+}
+
+.top nav li ul li:hover {
+   background-color: #FFF;
+}
+
+.menuMobile {
+   margin-top: 20px;
+   margin-bottom: 20px;
+   display: none;
+}
+
+.mm-line {
+   background-color: #000;
+   width: 40px;
+   margin-top: 5px;
+   height: 5px;
+   border-radius: 50px;
+}
+
 
 .main {
    display: flex;
@@ -107,4 +142,38 @@ hr {
    margin-left: 15px;
    font-size: 20px;
    font-weight: normal;
+}
+
+@media(max-width: 900px) {
+   .main {
+      flex-direction: column;
+   }
+
+   .personal-informations {
+      margin-right: 0;
+      margin-bottom: 10px;
+   }
+
+   .personal-img img {
+      width: 80%;
+   }
+
+   .contact-info {
+      word-break: break-all;
+   }
+}
+
+@media(max-width:600px) {
+   .menuMobile {
+      display: block;
+   }
+
+   .top ul {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      right: 0;
+      background-color: #fff;
+      width: 100%;
+   }
 }

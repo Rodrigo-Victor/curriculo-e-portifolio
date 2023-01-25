@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./assets/styles/projects-style.css">
+   <script src="./assets/scripts/projects.js"></script>
+   <title>Projetos</title>
+</head>
+<body onload="changeP()">
+   <section class="top container">
+      <nav>
+         <div class="menuMobile">
+            <div class="mm-line"></div>
+            <div class="mm-line"></div>
+            <div class="mm-line"></div>
+         </div>
+         <ul class="navMenu">
+            <li><a href="../../index.html">Home</a></li>
+            <li><a>Projetos▾</a>
+               <ul>
+                  <li><p id="as-jdv" onclick="changeProject(this.id)">Jogo da Velha</p></li>
+                  <li><p id="as-calc" onclick="changeProject(this.id)">Calculadora</p></li>
+                  <li><p id="as-cc" onclick="changeProject(this.id)">Cara ou Coroa</p></li>
+                  <li><p id="as-tdl" onclick="changeProject(this.id)">Lista de tarefas</p></li>
+               </ul>
+            </li>
+            <li><a href="../../contact.html">Contato</a></li>
+         </ul>
+      </nav>
+   </section>
+
+   <hr>
+
+   <section class="main container">
+      <div class="personal-informations">
+         <div class="personal-img">
+            <img src="https://avatars.githubusercontent.com/u/110914997?v=4" alt="Foto de perfil">
+         </div>
+
+         <aside class="personal-data">
+            <h1>Rodrigo Victor</h1>
+
+            <hr>
+
+            <h2>Projetos</h2>
+            <div class="choice-project">
+               <p id="as-jdv" onclick="changeProject(this.id)">Jogo da Velha</p>
+               <p id="as-calc" onclick="changeProject(this.id)">Calculadora</p>
+               <p id="as-cc" onclick="changeProject(this.id)">Cara ou Coroa</p>
+               <p id="as-tdl" onclick="changeProject(this.id)">Lista de tarefas</p>
+            </div>
+         </aside>
+      </div>
+
+      <div class="projects">
+         <h2></h2>
+
+         <div class="project">
+            <div class="iframe-div">
+               <div class="iframe-container">
+                  <iframe src="./projects/jogo-da-velha/index.html" width="95%" height="95%" id="iFrame"></iframe>
+               </div>
+         </div>
+      </div>
+   </section>
+</body>
+</html>

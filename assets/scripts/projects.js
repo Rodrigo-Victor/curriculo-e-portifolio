@@ -6,6 +6,8 @@ window.onload = function () {
          document.querySelector(".navMenu").style.display = "flex"
       }
    }));
+
+   changeP()
 };
 
 function changeP() {
